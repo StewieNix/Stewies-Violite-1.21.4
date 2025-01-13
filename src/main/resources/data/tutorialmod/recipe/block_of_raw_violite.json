@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": "tutorialmod:raw_violite"
+  },
+  "pattern": [
+    "VVV",
+    "VVV",
+    "VVV"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:block_of_raw_violite"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item.tutorialmod.violite_ingot": "Violite Ingot",
+  "item.tutorialmod.raw_violite": "Raw Violite",
+  "item.tutorialmod.violite_block": "Block of Violite",
+  "item.tutorialmod.violite_ore_block": "Violite Ore",
+  "item.tutorialmod.block_of_raw_violite": "Block of Raw Violite",
+
+  "block.tutorialmod.violite_block": "Block of Violite",
+  "block.tutorialmod.violite_ore_block": "Violite Ore",
+  "block.tutorialmod.block_of_raw_violite": "Block of Raw Violite",
+
+  "creativetab.tutorialmod.violite_items": "Violite Items",
+  "creativetab.tutorialmod.violite_blocks": "Violite Blocks"
+}

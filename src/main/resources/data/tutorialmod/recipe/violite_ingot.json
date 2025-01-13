@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "violite_ingot",
+  "ingredients": [
+    "tutorialmod:violite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:violite_ingot"
+  }
+}
