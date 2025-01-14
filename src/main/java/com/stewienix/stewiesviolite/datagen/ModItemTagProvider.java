@@ -6,6 +6,7 @@ import com.stewienix.stewiesviolite.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -25,5 +26,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(Items.GOLD_INGOT)
                 .add(Items.GOLD_BLOCK);
+        tag(ItemTags.MINING_ENCHANTABLE)
+                .add(ModItems.VIOLITE_PICKAXE.get())
+                .add(ModItems.VIOLITE_AXE.get())
+                .add(ModItems.VIOLITE_SHOVEL.get())
+                .add(ModItems.VIOLITE_HOE.get())
+                .add(ModItems.VIOLITE_HAMMER.get());
+        tag(ItemTags.SWORD_ENCHANTABLE)
+                .add(ModItems.VIOLITE_SWORD.get());
     }
 }

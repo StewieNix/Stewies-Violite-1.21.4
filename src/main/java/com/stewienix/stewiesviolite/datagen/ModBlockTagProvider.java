@@ -25,18 +25,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.VIOLITE_BLOCK.get())
                 .add(ModBlocks.BLOCK_OF_RAW_VIOLITE.get())
                 .add(ModBlocks.VIOLITE_ORE_BLOCK.get())
-                .add(ModBlocks.DEEPSLATE_VIOLITE_ORE_BLOCK.get());
+                .add(ModBlocks.DEEPSLATE_VIOLITE_ORE_BLOCK.get())
+                .add(ModBlocks.GOLD_CONVERTER_BLOCK.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.VIOLITE_BLOCK.get())
                 .add(ModBlocks.BLOCK_OF_RAW_VIOLITE.get())
                 .add(ModBlocks.VIOLITE_ORE_BLOCK.get())
-                .add(ModBlocks.DEEPSLATE_VIOLITE_ORE_BLOCK.get());
+                .add(ModBlocks.DEEPSLATE_VIOLITE_ORE_BLOCK.get())
+                .add((ModBlocks.GOLD_CONVERTER_BLOCK.get()));
 
         tag(ModTags.Blocks.NEEDS_VIOLITE_TOOL)
                 .add(ModBlocks.BLOCK_OF_RAW_VIOLITE.get())
                 .add(Blocks.OBSIDIAN)
-                .addTag(BlockTags.NEEDS_IRON_TOOL);
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         tag(ModTags.Blocks.INCORRECT_FOR_VIOLITE_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)

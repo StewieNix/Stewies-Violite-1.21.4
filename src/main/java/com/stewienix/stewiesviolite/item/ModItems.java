@@ -25,10 +25,10 @@ public class ModItems {
             () -> new ChiselItem(new Item.Properties().durability(64).useItemDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:chisel")))));
 
     public static final RegistryObject<Item> VIOLITE_SWORD = ITEMS.register("violite_sword",
-            () -> new SwordItem(ModToolTiers.VIOLITE,  3, -2.4f, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_sword")))));
+            () -> new SwordItem(ModToolTiers.VIOLITE,  8, -2.4f, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_sword")))));
 
     public static final RegistryObject<Item> VIOLITE_PICKAXE = ITEMS.register("violite_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.VIOLITE, 1, -2.8f, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_pickaxe")))));
+            () -> new PickaxeItem(ModToolTiers.VIOLITE, 5, -2.8f, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_pickaxe")))));
 
     public static final RegistryObject<Item> VIOLITE_SHOVEL = ITEMS.register("violite_shovel",
             () -> new ShovelItem(ModToolTiers.VIOLITE, 1.5f, -3.0f, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_shovel")))));

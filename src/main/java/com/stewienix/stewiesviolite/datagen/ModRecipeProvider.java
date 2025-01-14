@@ -103,6 +103,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('V', ModBlocks.VIOLITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.VIOLITE_BLOCK.get()), has(ModBlocks.VIOLITE_BLOCK.get())).save(this.output);
 
+        shaped(RecipeCategory.TOOLS, ModItems.VIOLITE_HAMMER.get())
+                .pattern("VVV")
+                .pattern("VsV")
+                .pattern(" s ")
+                .define('V', ModItems.VIOLITE_INGOT.get())
+                .define('s', Items.STICK)
+                .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
+
         shapeless(RecipeCategory.MISC, ModItems.VIOLITE_INGOT.get(), 9)
                 .requires(ModBlocks.VIOLITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.VIOLITE_BLOCK.get()), has(ModBlocks.VIOLITE_BLOCK.get())).save(this.output);
