@@ -1,0 +1,28 @@
+{
+  "item.stewiesviolite.violite_ingot": "Violite Ingot",
+  "item.stewiesviolite.raw_violite": "Raw Violite",
+  "item.stewiesviolite.violite_block": "Block of Violite",
+  "item.stewiesviolite.violite_ore_block": "Violite Ore",
+  "item.stewiesviolite.deepslate_violite_ore_block": "Deepslate Violite Ore",
+  "item.stewiesviolite.block_of_raw_violite": "Block of Raw Violite",
+  "item.stewiesviolite.chisel": "Chisel",
+  "item.stewiesviolite.violite_axe": "Violite Axe",
+  "item.stewiesviolite.violite_hoe": "Violite Hoe",
+  "item.stewiesviolite.violite_pickaxe": "Violite Pickaxe",
+  "item.stewiesviolite.violite_shovel": "Violite Shovel",
+  "item.stewiesviolite.violite_sword": "Violite Sword",
+  "item.stewiesviolite.violite_hammer": "Violite Hammer",
+
+  "block.stewiesviolite.violite_block": "Block of Violite",
+  "block.stewiesviolite.violite_ore_block": "Violite Ore",
+  "block.stewiesviolite.deepslate_violite_ore_block": "Deepslate Violite Ore",
+  "block.stewiesviolite.block_of_raw_violite": "Block of Raw Violite",
+  "block.stewiesviolite.gold_converter_block": "Gold Converter",
+
+  "creativetab.stewiesviolite.violite_items": "Violite Items",
+  "creativetab.stewiesviolite.violite_blocks": "Violite Blocks",
+
+  "tooltip.stewiesviolite.chisel": "Press Shift for more info.",
+  "tooltip.stewiesviolite.chisel.shift_down": "This item changes certain stone materials into their brick variants.",
+  "tooltip.stewiesviolite.gold_converter_block.tooltip": "Converts gold ingots and blocks to their violite counterparts."
+}
