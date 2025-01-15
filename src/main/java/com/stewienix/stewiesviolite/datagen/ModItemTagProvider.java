@@ -34,5 +34,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.VIOLITE_HAMMER.get());
         tag(ItemTags.SWORD_ENCHANTABLE)
                 .add(ModItems.VIOLITE_SWORD.get());
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.VIOLITE_HELMET.get())
+                .add(ModItems.VIOLITE_CHESTPLATE.get())
+                .add(ModItems.VIOLITE_LEGGINGS.get())
+                .add(ModItems.VIOLITE_BOOTS.get());
     }
 }

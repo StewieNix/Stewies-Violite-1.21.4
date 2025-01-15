@@ -12,6 +12,11 @@
   "item.stewiesviolite.violite_shovel": "Violite Shovel",
   "item.stewiesviolite.violite_sword": "Violite Sword",
   "item.stewiesviolite.violite_hammer": "Violite Hammer",
+  "item.stewiesviolite.violite_pizza": "Violite Pizza",
+  "item.stewiesviolite.violite_helmet": "Violite Helmet",
+  "item.stewiesviolite.violite_chestplate": "Violite Chestplate",
+  "item.stewiesviolite.violite_leggings": "Violite Leggings",
+  "item.stewiesviolite.violite_boots": "Violite Boots",
 
   "block.stewiesviolite.violite_block": "Block of Violite",
   "block.stewiesviolite.violite_ore_block": "Violite Ore",
@@ -21,6 +26,7 @@
 
   "creativetab.stewiesviolite.violite_items": "Violite Items",
   "creativetab.stewiesviolite.violite_blocks": "Violite Blocks",
+  "creativetab.stewiesviolite.violite_food": "Violite Food",
 
   "tooltip.stewiesviolite.chisel": "Press Shift for more info.",
   "tooltip.stewiesviolite.chisel.shift_down": "This item changes certain stone materials into their brick variants.",

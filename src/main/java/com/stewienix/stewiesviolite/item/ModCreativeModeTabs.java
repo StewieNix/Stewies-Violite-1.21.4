@@ -27,6 +27,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VIOLITE_SHOVEL.get());
                         output.accept(ModItems.VIOLITE_HOE.get());
                         output.accept(ModItems.VIOLITE_HAMMER.get());
+                        output.accept(ModItems.VIOLITE_HELMET.get());
+                        output.accept(ModItems.VIOLITE_CHESTPLATE.get());
+                        output.accept(ModItems.VIOLITE_LEGGINGS.get());
+                        output.accept(ModItems.VIOLITE_BOOTS.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> VIOLITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("violite_blocks_tab",
@@ -39,6 +43,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.VIOLITE_ORE_BLOCK.get());
                         output.accept(ModBlocks.DEEPSLATE_VIOLITE_ORE_BLOCK.get());
                         output.accept(ModBlocks.GOLD_CONVERTER_BLOCK.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> VIOLITE_FOOD_TAB = CREATIVE_MODE_TABS.register("violite_food_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.VIOLITE_PIZZA.get()))
+                    .withTabsBefore(VIOLITE_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.stewiesviolite.violite_food"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.VIOLITE_PIZZA.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

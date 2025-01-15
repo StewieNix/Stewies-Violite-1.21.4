@@ -111,6 +111,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('s', Items.STICK)
                 .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
 
+        shaped(RecipeCategory.FOOD, ModItems.VIOLITE_PIZZA.get())
+                .pattern("   ")
+                .pattern("MVM")
+                .pattern("WWW")
+                .define('M', Items.MILK_BUCKET)
+                .define('V', ModItems.RAW_VIOLITE.get())
+                .define('W', Items.WHEAT)
+                .unlockedBy(getHasName(ModItems.RAW_VIOLITE.get()), has(ModItems.RAW_VIOLITE.get())).save(this.output);
+
         shapeless(RecipeCategory.MISC, ModItems.VIOLITE_INGOT.get(), 9)
                 .requires(ModBlocks.VIOLITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.VIOLITE_BLOCK.get()), has(ModBlocks.VIOLITE_BLOCK.get())).save(this.output);

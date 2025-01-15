@@ -3,6 +3,7 @@ package com.stewienix.stewiesviolite;
 import com.mojang.logging.LogUtils;
 import com.stewienix.stewiesviolite.block.ModBlocks;
 import com.stewienix.stewiesviolite.component.ModDataComponentTypes;
+import com.stewienix.stewiesviolite.item.ModArmorMaterials;
 import com.stewienix.stewiesviolite.item.ModCreativeModeTabs;
 import com.stewienix.stewiesviolite.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,8 @@ public class StewiesViolite {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+
 
         ModDataComponentTypes.register(modEventBus);
 
