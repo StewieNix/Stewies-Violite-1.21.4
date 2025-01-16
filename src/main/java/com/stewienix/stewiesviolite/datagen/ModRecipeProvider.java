@@ -120,6 +120,34 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('W', Items.WHEAT)
                 .unlockedBy(getHasName(ModItems.RAW_VIOLITE.get()), has(ModItems.RAW_VIOLITE.get())).save(this.output);
 
+        shaped(RecipeCategory.COMBAT, ModItems.VIOLITE_HELMET.get())
+                .pattern("VVV")
+                .pattern("V V")
+                .pattern("   ")
+                .define('V', ModItems.VIOLITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.VIOLITE_CHESTPLATE.get())
+                .pattern("V V")
+                .pattern("VVV")
+                .pattern("VVV")
+                .define('V', ModItems.VIOLITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.VIOLITE_LEGGINGS.get())
+                .pattern("VVV")
+                .pattern("V V")
+                .pattern("V V")
+                .define('V', ModItems.VIOLITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.VIOLITE_BOOTS.get())
+                .pattern("   ")
+                .pattern("V V")
+                .pattern("V V")
+                .define('V', ModItems.VIOLITE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
+
         shapeless(RecipeCategory.MISC, ModItems.VIOLITE_INGOT.get(), 9)
                 .requires(ModBlocks.VIOLITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.VIOLITE_BLOCK.get()), has(ModBlocks.VIOLITE_BLOCK.get())).save(this.output);
