@@ -55,6 +55,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('v', ModItems.RAW_VIOLITE.get())
                 .unlockedBy(getHasName(ModItems.RAW_VIOLITE.get()), has(ModItems.RAW_VIOLITE.get())).save(this.output);
 
+        shaped(RecipeCategory.TOOLS, ModItems.CHISEL.get())
+                .pattern("   ")
+                .pattern(" V ")
+                .pattern(" s ")
+                .define('V', ModItems.VIOLITE_INGOT.get())
+                .define('s', Items.STICK)
+                .unlockedBy(getHasName(ModItems.VIOLITE_INGOT.get()), has(ModItems.VIOLITE_INGOT.get())).save(this.output);
+
         shaped(RecipeCategory.COMBAT, ModItems.VIOLITE_SWORD.get())
                 .pattern(" V ")
                 .pattern(" V ")
