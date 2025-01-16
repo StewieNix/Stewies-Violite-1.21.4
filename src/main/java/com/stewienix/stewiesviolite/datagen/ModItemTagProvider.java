@@ -39,5 +39,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.VIOLITE_CHESTPLATE.get())
                 .add(ModItems.VIOLITE_LEGGINGS.get())
                 .add(ModItems.VIOLITE_BOOTS.get());
+        tag(ItemTags.ARMOR_ENCHANTABLE)
+                .add(ModItems.VIOLITE_HELMET.get())
+                .add(ModItems.VIOLITE_CHESTPLATE.get())
+                .add(ModItems.VIOLITE_LEGGINGS.get())
+                .add(ModItems.VIOLITE_BOOTS.get());
     }
 }

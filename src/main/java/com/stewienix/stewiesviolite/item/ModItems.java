@@ -4,6 +4,7 @@ import com.stewienix.stewiesviolite.StewiesViolite;
 import com.stewienix.stewiesviolite.item.Custom.ChiselItem;
 import com.stewienix.stewiesviolite.item.Custom.HammerItem;
 import com.stewienix.stewiesviolite.item.Custom.ModFoodProperties;
+import com.stewienix.stewiesviolite.item.equipment.ModArmorMaterials;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -53,19 +54,19 @@ public class ModItems {
     // Armor
     public static final RegistryObject<Item> VIOLITE_HELMET = ITEMS.register("violite_helmet",
             () -> new ArmorItem(ModArmorMaterials.VIOLITE_ARMOR_MATERIAL, ArmorType.HELMET,
-                    new Item.Properties().durability(ArmorType.HELMET.getDurability(35))));
+                    new Item.Properties().durability(ArmorType.HELMET.getDurability(35)).setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_helmet")))));
 
     public static final RegistryObject<Item> VIOLITE_CHESTPLATE = ITEMS.register("violite_chestplate",
             () -> new ArmorItem(ModArmorMaterials.VIOLITE_ARMOR_MATERIAL, ArmorType.CHESTPLATE,
-                    new Item.Properties().durability(ArmorType.CHESTPLATE.getDurability(35))));
+                    new Item.Properties().durability(ArmorType.CHESTPLATE.getDurability(35)).setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_chestplate")))));
 
     public static final RegistryObject<Item> VIOLITE_LEGGINGS = ITEMS.register("violite_leggings",
             () -> new ArmorItem(ModArmorMaterials.VIOLITE_ARMOR_MATERIAL, ArmorType.LEGGINGS,
-                    new Item.Properties().durability(ArmorType.LEGGINGS.getDurability(35))));
+                    new Item.Properties().durability(ArmorType.LEGGINGS.getDurability(35)).setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_leggings")))));
 
     public static final RegistryObject<Item> VIOLITE_BOOTS = ITEMS.register("violite_boots",
             () -> new ArmorItem(ModArmorMaterials.VIOLITE_ARMOR_MATERIAL, ArmorType.BOOTS,
-                    new Item.Properties().durability(ArmorType.BOOTS.getDurability(35))));
+                    new Item.Properties().durability(ArmorType.BOOTS.getDurability(35)).setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("stewiesviolite:violite_boots")))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
